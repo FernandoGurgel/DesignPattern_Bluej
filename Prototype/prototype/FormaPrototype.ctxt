@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=FormaPrototype
+comment1.params=g
+comment1.target=void\ paintComponent(java.awt.Graphics)
+comment2.params=x\ y\ largura\ altura
+comment2.target=FormaPrototype\ clonar(int,\ int,\ int,\ int)
+numComments=3

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Cliente
+comment1.params=prototype
+comment1.target=Cliente(FormaPrototype)
+comment2.params=prototype
+comment2.target=void\ addTela(FormaPrototype)
+numComments=3

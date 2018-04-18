@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=CirculoPrototype
+comment1.params=
+comment1.target=CirculoPrototype()
+comment2.params=x\ y\ largura\ altura
+comment2.target=CirculoPrototype(int,\ int,\ int,\ int)
+comment3.params=g
+comment3.target=void\ paintComponent(java.awt.Graphics)
+comment4.params=x\ y\ largura\ altura
+comment4.target=FormaPrototype\ clonar(int,\ int,\ int,\ int)
+numComments=5
