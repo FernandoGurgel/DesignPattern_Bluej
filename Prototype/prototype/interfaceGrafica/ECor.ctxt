@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=ECor
+comment0.text=\n\ Classe\ ECor\ \u00E9\ uma\ classe\ que\ retorna\ cores.\n\ \n\ @author\ Fernando\ Gugel\ \n\ @version\ 18\ abr\ 2018\ \n
+comment1.params=idCor
+comment1.target=java.awt.Color\ getCor(int)
+numComments=2

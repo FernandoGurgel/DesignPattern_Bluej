@@ -1,7 +1,10 @@
 #BlueJ class context
 comment0.target=FormaPrototype
+comment0.text=\n\ Classe\ FormaPrototype\ que\ declara\ uma\ interface\ para\ objetos\ capazes\ de\ clonar\ a\ si\ mesmo.\n\ @author\ Fernando\ Gugel\ \n\ @version\ 18\ abr\ 2018\ \n
 comment1.params=g
 comment1.target=void\ paintComponent(java.awt.Graphics)
-comment2.params=x\ y\ largura\ altura
-comment2.target=FormaPrototype\ clonar(int,\ int,\ int,\ int)
+comment1.text=\n\ M\u00E9todo\ respons\u00E1vel\ desenha.\n\ \n
+comment2.params=x\ y\ largura\ altura\ cor
+comment2.target=FormaPrototype\ clonar(int,\ int,\ int,\ int,\ int)
+comment2.text=\n\ M\u00E9todo\ para\ clona\ o\ objeto.\n\ @param\ \ x\ \ posicionamento\ do\ elemento\ na\ tela\ no\ eixo\ X\ \n\ @param\ \ y\ \ posicionamento\ do\ elemento\ na\ tela\ no\ eixo\ Y\n\ @param\ \ largura\ tamanho\ do\ elemento\ largura\n\ @param\ \ altura\ altura\ do\ elemento\n\ @param\ \ \ cor\ (1-Vermelho;\ 2-Preto;\ 3-Azul,\ 4-Laranja)\n\ \n\ @returna\ objeto\ FormaPrototype\n
 numComments=3

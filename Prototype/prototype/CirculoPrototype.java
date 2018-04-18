@@ -1,23 +1,36 @@
 package prototype;
 
-
-import java.awt.Color;
+import prototype.interfaceGrafica.*;
 import java.awt.Graphics;
+/**
+ * implementação de um Formaprototype
+ * @author Fernando Gugel 
+ * @version 18 abr 2018 
+ */
 
 public class CirculoPrototype extends FormaPrototype {
 
 	
 	public CirculoPrototype() {}
 	
-	public CirculoPrototype(int x, int y, int largura, int altura) {
+	/**
+	 * Construtor inicializar os atributos tais como o posicionamento do elemento na tela X e Y,
+	 * para o tamanho do elemento os atributos encarregados são largura e altura, 
+	 * Cor será passado através de um inteiro que retorna a cor correspondente. 
+	 * (1-Vermelho; 2-Preto; 3-Azul, 4-Laranja)
+	 */
+	public CirculoPrototype(int x, int y, int largura, int altura, int cor) {
 		this.altura = altura;
-		this.cor = Color.RED;
+		this.cor = new ECor().getCor(cor);
 		this.largura = largura;
 		this.x = x;
 		this.y = y;
 	}
 	
-	// desenha uma circulo do diâmetro especificado
+	/**
+	 * Método responsável desenha uma circulo do diâmetro especificado(non-Javadoc)
+	 * 
+	 */
 	@Override
 	public void paintComponent(Graphics g) {
 		super.paintComponents(g);
@@ -25,9 +38,15 @@ public class CirculoPrototype extends FormaPrototype {
 		g.fillOval(x, y, largura, altura); // desenha um círculo
 	}
 
+	/**
+	 * Método para clona o objeto com atributos tais como o posicionamento do elemento na tela X e Y,
+	 * para o tamanho do elemento os atributos encarregados são largura e altura, 
+	 * Cor será passado através de um inteiro que retorna a cor correspondente. 
+	 * (1-Vermelho; 2-Preto; 3-Azul, 4-Laranja)
+	 */
 	@Override
-	public FormaPrototype clonar(int x, int y, int largura, int altura) {
-		return new CirculoPrototype(x, y,largura, altura);
+	public FormaPrototype clonar(int x, int y, int largura, int altura, int cor) {
+		return new CirculoPrototype(x, y,largura, altura,cor);
 	}
 	
 }

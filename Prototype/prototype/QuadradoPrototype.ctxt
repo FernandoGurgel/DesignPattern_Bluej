@@ -1,15 +1,15 @@
 #BlueJ class context
-comment0.target=CirculoPrototype
+comment0.target=QuadradoPrototype
 comment0.text=\n\ implementa\u00E7\u00E3o\ de\ um\ Formaprototype\n\ @author\ Fernando\ Gugel\ \n\ @version\ 18\ abr\ 2018\ \n
 comment1.params=
-comment1.target=CirculoPrototype()
+comment1.target=QuadradoPrototype()
 comment2.params=x\ y\ largura\ altura\ cor
-comment2.target=CirculoPrototype(int,\ int,\ int,\ int,\ int)
+comment2.target=QuadradoPrototype(int,\ int,\ int,\ int,\ int)
 comment2.text=\n\ Construtor\ inicializar\ os\ atributos\ tais\ como\ o\ posicionamento\ do\ elemento\ na\ tela\ X\ e\ Y,\n\ para\ o\ tamanho\ do\ elemento\ os\ atributos\ encarregados\ s\u00E3o\ largura\ e\ altura,\ \n\ Cor\ ser\u00E1\ passado\ atrav\u00E9s\ de\ um\ inteiro\ que\ retorna\ a\ cor\ correspondente.\ \n\ (1-Vermelho;\ 2-Preto;\ 3-Azul,\ 4-Laranja)\n
 comment3.params=g
 comment3.target=void\ paintComponent(java.awt.Graphics)
-comment3.text=\n\ M\u00E9todo\ respons\u00E1vel\ desenha\ uma\ circulo\ do\ di\u00E2metro\ especificado(non-Javadoc)\n\ \n
+comment3.text=\n\ M\u00E9todo\ respons\u00E1vel\ desenha\ uma\ quadrado\ do\ di\u00E2metro\ especificado(non-Javadoc)\n\ \n
 comment4.params=x\ y\ largura\ altura\ cor
 comment4.target=FormaPrototype\ clonar(int,\ int,\ int,\ int,\ int)
-comment4.text=\n\ M\u00E9todo\ para\ clona\ o\ objeto\ com\ atributos\ tais\ como\ o\ posicionamento\ do\ elemento\ na\ tela\ X\ e\ Y,\n\ para\ o\ tamanho\ do\ elemento\ os\ atributos\ encarregados\ s\u00E3o\ largura\ e\ altura,\ \n\ Cor\ ser\u00E1\ passado\ atrav\u00E9s\ de\ um\ inteiro\ que\ retorna\ a\ cor\ correspondente.\ \n\ (1-Vermelho;\ 2-Preto;\ 3-Azul,\ 4-Laranja)\n
+comment4.text=\n\ M\u00E9todo\ para\ clona\ o\ objeto.\n\ @param\ \ x\ \ posicionamento\ do\ elemento\ na\ tela\ no\ eixo\ X\ \n\ @param\ \ y\ \ posicionamento\ do\ elemento\ na\ tela\ no\ eixo\ Y\n\ @param\ \ largura\ tamanho\ do\ elemento\ largura\n\ @param\ \ altura\ altura\ do\ elemento\n\ @param\ cor\ (1-Vermelho;\ 2-Preto;\ 3-Azul,\ 4-Laranja)\n\ \n\ @returna\ objeto\ FormaPrototype\n
 numComments=5

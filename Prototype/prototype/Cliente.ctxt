@@ -1,7 +1,15 @@
 #BlueJ class context
 comment0.target=Cliente
-comment1.params=prototype
-comment1.target=Cliente(FormaPrototype)
+comment0.text=\n\ Classe\ cliente\ cria\ um\ novo\ objeto\ atrav\u00E9s\ de\ um\ FormaPrototype\ que\ \u00E9\ capaz\ de\ clonar\ a\ si\ mesmo.\n\ @author\ Fernando\ Gugel\ \n\ @version\ 18\ abr\ 2018\ \n
+comment1.params=
+comment1.target=Cliente()
+comment1.text=\n\ Construtor\ que\ instancia\ a\ classe\ cen\u00E1rio\n
 comment2.params=prototype
 comment2.target=void\ addTela(FormaPrototype)
-numComments=3
+comment2.text=\n\ M\u00E9todo\ para\ adiciona\ o\ objeto\ Forma\ Prototype\ na\ tela.\n\ \n
+comment3.params=
+comment3.target=void\ init()
+comment3.text=\n\ M\u00E9todo\ que\ clonar\ dois\ objetos\ e\ adicionar\ na\ tela\ utilizando\ o\ m\u00E9todo\ clonar.\n\ \n
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5
